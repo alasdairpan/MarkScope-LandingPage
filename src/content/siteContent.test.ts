@@ -5,7 +5,7 @@ import { siteContent } from './siteContent';
 describe('siteContent', () => {
   it('captures the approved landing-page content contract', () => {
     expect(siteContent.hero.title).toMatch(/MarkScope/i);
-    expect(siteContent.hero.title).toMatch(/Markdown reader/i);
+    expect(siteContent.hero.title).toMatch(/Markdown app/i);
     expect(siteContent.hero.title).toMatch(/iOS/i);
     expect(siteContent.hero.title).toMatch(/Android/i);
 

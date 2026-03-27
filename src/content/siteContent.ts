@@ -83,7 +83,7 @@ export const siteContent: SiteContent = {
   hero: {
     productName: 'MarkScope',
     eyebrow: 'Coming soon for iOS and Android',
-    title: 'MarkScope is a Markdown reader for iOS and Android.',
+    title: 'MarkScope is a Markdown app for iOS and Android.',
     supportingText:
       'Read CommonMark, GFM, KaTeX math, and abc notation offline with no account required.',
     primaryCtaText: 'Coming Soon for iOS and Android',
@@ -132,7 +132,7 @@ export const siteContent: SiteContent = {
       id: 'local-first',
       eyebrow: 'Local-first trust',
       title: 'Your documents stay local, readable, and inspectable.',
-      body: 'MarkScope is being built as an open-source reader with offline behavior and no account wall.',
+      body: 'MarkScope is being built as an open-source Markdown app with offline behavior and no account wall.',
       visualKey: 'offline-library',
       visualAlt: 'Local library and offline reading workflow on a mobile device.',
       callout: 'No cloud requirement, no login wall, no mystery about where files go.',
@@ -161,18 +161,18 @@ export const siteContent: SiteContent = {
       {
         label: 'abc sample',
         title: 'Tune sheets belong in the same reader as the rest of your notes.',
-        body: 'abc blocks are part of the product story because they are one of the clearest ways MarkScope differs from a basic mobile viewer.',
+        body: 'abc blocks are part of the product story because they are one of the clearest ways MarkScope differs from other mobile Markdown apps.',
         snippet: '```abc\nX:1\nT:Cooley\nM:4/4\nK:Em\n|:D2|EB{c}BA B2 EB|~B2 AB dBAG|',
       },
     ],
   },
   whyMarkScope: {
     eyebrow: 'Why MarkScope',
-    title: 'A reader-first take on Markdown for mobile.',
+    title: 'A focused Markdown app built for mobile.',
     items: [
       {
         title: 'Math and abc support',
-        body: 'It is shaped around the parts many mobile Markdown readers skip.',
+        body: 'It is shaped around the parts many mobile Markdown apps skip.',
       },
       {
         title: 'Offline and local-first',

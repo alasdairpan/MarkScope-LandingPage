@@ -13,7 +13,7 @@ describe('App', () => {
 
     expect(screen.getByRole('heading', { name: 'MarkScope' })).toBeInTheDocument();
     expect(
-      screen.getByText('MarkScope is a Markdown reader for iOS and Android.'),
+      screen.getByText('MarkScope is a Markdown app for iOS and Android.'),
     ).toBeVisible();
     expect(
       screen.getByText(
@@ -52,7 +52,7 @@ describe('App', () => {
     expect(screen.getByText('Star file')).toBeVisible();
     expect(screen.getByText('Copy Markdown')).toBeVisible();
     expect(screen.getByRole('heading', { name: /planned around real mobile reading moments/i })).toBeVisible();
-    expect(screen.getByRole('heading', { name: /a reader-first take on markdown for mobile/i })).toBeVisible();
+    expect(screen.getByRole('heading', { name: /a focused markdown app built for mobile/i })).toBeVisible();
     expect(screen.getByRole('heading', { name: /coming soon for ios and android/i })).toBeVisible();
     expect(screen.getByText('TensorBinge/MarkScope')).toBeVisible();
   });
